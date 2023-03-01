@@ -1,6 +1,6 @@
 @extends('Layout.template')
 
-@section('title', 'HOME')
+@section('title', 'All Products')
 @section('Content')
 
 <div class="container px-4 px-lg-5 mt-5">
