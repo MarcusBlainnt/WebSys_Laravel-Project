@@ -19,6 +19,9 @@ use App\Http\Controllers\productsController;
     return view('welcome');
 });*/
 //homapage
-Route::get('/', [MainController::class, 'index'])->name('<main.index');
+Route::get('/', [MainController::class, 'index'])->name('main.index');
+/*Route::get('/', function(){
+    return view ('index');
+});*/
 
 Route::get('/products', [ProductsController::class, 'index'])->name('products.index');

@@ -8,9 +8,9 @@ use Illuminate\Http\Request;
 class MainController extends Controller
 {
     public function index(){
-        return view('homepage',
+        return view('index',
         [ 
-        'product'   => Products::all()
+        'product'   => Products::list()
         ]
     );
     }
