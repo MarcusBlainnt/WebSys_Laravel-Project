@@ -1,4 +1,4 @@
-@extends('Layout.template')
+@extends('template.default')
 
 @section('title', 'All Products')
 @section('Content')

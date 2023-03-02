@@ -10,7 +10,7 @@ class MainController extends Controller
     public function index(){
         return view('index',
         [ 
-        'product'   => Products::list()
+        'product'   => Products::all()
         ]
     );
     }

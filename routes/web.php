@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
-use App\Http\Controllers\productsController;
+use App\Http\Controllers\ProductsController;
 
 /*
 |--------------------------------------------------------------------------
