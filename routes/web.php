@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\ProductsController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +23,5 @@ use App\Http\Controllers\ProductsController;
 Route::get('/', [MainController::class, 'index'])->name('main.index');
 
 Route::get('/products', [ProductsController::class, 'index'])->name('products.index');
+
+Route::resource('/admin', AdminController::class);

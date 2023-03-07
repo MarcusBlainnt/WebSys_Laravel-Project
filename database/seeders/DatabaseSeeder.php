@@ -22,17 +22,17 @@ class DatabaseSeeder extends Seeder
 
         DB::table('products')->insert(
             [
-                'id'            => '1',
-                'product_img'   =>'assets/img/img1.jpg',
-                'product_name'  => 'T-shirt',
+                'id'            => '7',
+                'product_img'   =>'assets/img/img4.jpg',
+                'product_name'  => 'Shades',
                 'price'         =>'₱249',
                 
             ]
         );
         DB::table('products')->insert(
             [
-                'id'            => '2',
-                'product_img'   =>'assets/img/img2.jpg',
+                'id'            => '8',
+                'product_img'   =>'assets/img/img5.jpg',
                 'product_name'  => 'Pants',
                 'price'         =>'₱299',
                 
@@ -40,8 +40,35 @@ class DatabaseSeeder extends Seeder
         );
         DB::table('products')->insert(
             [
-                'id'            => '3',
-                'product_img'   =>'assets/img/img3.jpg',
+                'id'            => '9',
+                'product_img'   =>'assets/img/img6.jpg',
+                'product_name'  => 'Shoes',
+                'price'         =>'₱249',
+                
+            ]
+        );
+        DB::table('products')->insert(
+            [
+                'id'            => '10',
+                'product_img'   =>'assets/img/img4.jpg',
+                'product_name'  => 'Shades',
+                'price'         =>'₱249',
+                
+            ]
+        );
+        DB::table('products')->insert(
+            [
+                'id'            => '11',
+                'product_img'   =>'assets/img/img5.jpg',
+                'product_name'  => 'Pants',
+                'price'         =>'₱299',
+                
+            ]
+        );
+        DB::table('products')->insert(
+            [
+                'id'            => '12',
+                'product_img'   =>'assets/img/img6.jpg',
                 'product_name'  => 'Shoes',
                 'price'         =>'₱249',
                 

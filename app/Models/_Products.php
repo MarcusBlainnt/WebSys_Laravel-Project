@@ -10,6 +10,7 @@ class _Products{
 
         $products = [
             [
+                
                 'id'            => '1',
                 'product_img'   =>'assets/img/img1.jpg',
                 'product_name'  => 'T-shirt',
