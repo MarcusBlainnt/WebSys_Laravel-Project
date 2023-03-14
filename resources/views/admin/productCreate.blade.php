@@ -1,5 +1,6 @@
 @extends('template.dashboard')
 
+@section('title', 'Create')
 @section('content'),
 
         <div class="card">
